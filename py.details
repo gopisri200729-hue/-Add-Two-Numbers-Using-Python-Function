@@ -1,0 +1,52 @@
+1. Project Title 
+Add Two Numbers Using Python Function 
+
+2. Problem Statement 
+To design and implement a Python program that adds two numbers using a 
+user-defined function. The program demonstrates how functions work with 
+parameters and return values. 
+
+3. Objective 
+ To understand the use of functions in Python 
+ To learn how to pass arguments to a function 
+ To use return statements to get results from a function 
+ To perform basic arithmetic operations using Python 
+
+4.Tools Used 
+ Python 3 
+ VS Code / IDLE 
+
+5. Description 
+This project allows the user to add two numbers using a Python function. The 
+function add_numbers(a, b) takes two numbers as input parameters, adds 
+them, and returns the result. The program then prints the sum. 
+
+6. Algorithm 
+
+1. Start the program 
+2. Define a function add_numbers(a, b) 
+3. Inside the function, calculate result = a + b 
+4. Return the result 
+5. Take two numbers as input from the user or use default values 
+6. Call the function with these numbers 
+7. Display the sum 
+8. Stop 
+
+7. Program (Python Code) 
+def add_numbers(a, b): 
+result = a + b 
+return result 
+num1 = int(input("Enter first number: ")) 
+num2 = int(input("Enter second number: ")) 
+sum_result = add_numbers(num1, num2) 
+print("The sum is:", sum_result) 
+
+9. Result 
+The program successfully adds two numbers using a function and displays the 
+sum. It demonstrates the use of functions, parameters, and return statements in 
+Python. 
+
+10. Conclusion 
+This project illustrates how Python functions can simplify arithmetic operations 
+and improve code readability. It helps in understanding function definition, 
+parameter passing, and using return values effectively. 
